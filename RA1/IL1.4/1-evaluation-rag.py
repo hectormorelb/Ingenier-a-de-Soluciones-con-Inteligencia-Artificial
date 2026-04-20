@@ -14,7 +14,8 @@ import plotly.graph_objects as go
 
 # LangChain imports
 from langchain_openai import OpenAIEmbeddings
-from langchain.schema import Document
+from langchain.messages import Document
+#from langchain.schema import Document
 
 # Load environment variables from .env file
 try:
