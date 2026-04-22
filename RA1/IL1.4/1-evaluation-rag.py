@@ -1,4 +1,5 @@
 # File: RA1/IL1.4/1-evaluation-rag.py
+#streamlit run 1-evaluation-rag.py
 import streamlit as st
 import os
 import json
@@ -14,8 +15,9 @@ import plotly.graph_objects as go
 
 # LangChain imports
 from langchain_openai import OpenAIEmbeddings
-from langchain.messages import Document
+#from langchain.messages import Document
 #from langchain.schema import Document
+from langchain_core.documents import Document
 
 # Load environment variables from .env file
 try:
